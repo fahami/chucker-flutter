@@ -128,4 +128,6 @@ class ChuckerFlutter {
 
   ///[showChuckerScreen] navigates to the chucker home screen
   static void showChuckerScreen() => ChuckerUiHelper.showChuckerScreen();
+
+  static Widget get page =>  ChuckerPage();
 }
