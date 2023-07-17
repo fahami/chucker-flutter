@@ -17,7 +17,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   http: ^0.13.5
-  http_mock_adapter: ^0.4.2
+  http_mock_adapter: ^0.3.3
   share_plus: ^4.0.1
   shared_preferences: ^2.0.13
 
