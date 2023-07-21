@@ -129,5 +129,9 @@ class ChuckerFlutter {
   ///[showChuckerScreen] navigates to the chucker home screen
   static void showChuckerScreen() => ChuckerUiHelper.showChuckerScreen();
 
+  ///Chucker monitoring page
   static Widget get page =>  ChuckerPage();
+
+  ///initialize [SharedPreferencesManager] setting
+  static void initSharedPreferenceSetting() => SharedPreferencesManager.getInstance().getSettings();
 }
