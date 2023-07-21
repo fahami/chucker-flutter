@@ -133,5 +133,5 @@ class ChuckerFlutter {
   static Widget get page =>  ChuckerPage();
 
   ///initialize [SharedPreferencesManager] setting
-  static void initSharedPreferenceSetting() => SharedPreferencesManager.getInstance().getSettings();
+  static Future<Settings> initSharedPreferenceSetting() => SharedPreferencesManager.getInstance().getSettings();
 }
